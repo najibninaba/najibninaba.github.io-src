@@ -7,6 +7,10 @@ SITENAME = 'Najib Ninaba: Writings & Musings'
 SITEURL = ''
 
 PATH = 'content'
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = []
+THEME = 'themes/svbhack'
+TAGLINE = 'Husband & Dad | Big Data, Backends & Bits | Certified Scrum Master | Silat, Kuntau, Kali'
 
 TIMEZONE = 'Asia/Singapore'
 
