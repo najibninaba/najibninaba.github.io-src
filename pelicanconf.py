@@ -10,6 +10,7 @@ PATH = 'content'
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = []
 THEME = 'themes/svbhack'
+USER_LOGO_URL = SITEURL + '/images/logo.jpg'
 TAGLINE = 'Husband & Dad | Big Data, Backends & Bits | Certified Scrum Master | Silat, Kuntau, Kali'
 
 TIMEZONE = 'Asia/Singapore'
@@ -24,14 +25,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('About', '#'),
+         ('Now', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', '#'),
+          ('LinkedIn', '#'),)
 
 DEFAULT_PAGINATION = 10
 
